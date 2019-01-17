@@ -1,0 +1,13 @@
+GET http://localhost:8080/liveness?message=I'll%20Find%20You HTTP/1.1
+content-type: application/json
+
+###
+
+POST http://localhost:8080/liveness HTTP/1.1
+content-type: application/json
+
+{
+  "message": "I'll find you!"
+}
+
+###

@@ -1,0 +1,46 @@
+{
+  "extends": "airbnb",
+  "plugins": [
+    "env",
+    "react",
+    "jsx-a11y",
+    "import"
+  ],
+  "rules": {
+    "react/jsx-filename-extension": 0,
+    "react/prop-types": 0,
+    "react/destructuring-assignment": 0,
+    "react/no-array-index-key": 0,
+    "no-underscore-dangle": 0,
+    "import/prefer-default-export": 0,
+    "operator-linebreak": 0,
+    "react/jsx-wrap-multilines": 0,
+    "global-require": 0,
+    "arrow-parens": [
+      1,
+      "always",
+      {
+        "requireForBlockBody": true
+      }
+    ],
+    "arrow-body-style": 0,
+    "semi": [
+      "error",
+      "never"
+    ],
+    "implicit-arrow-linebreak": 0,
+    "strict": 0
+  },
+  "globals": {
+    "document": 1
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": false,
+    "codeFrame": true
+  },
+  "env": {
+    "browser": 1
+  }
+}
